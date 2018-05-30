@@ -7,4 +7,9 @@ public class StringConcatenatorTest {
     public void CconatTest() {
         Assert.assertEquals("Majom", StringConcatenator.concat("Ma","jom"));
     }
+
+    public void concatNull() {
+
+        Assert.assertEquals("null-majom",StringConcatenator.concat(null,"-najon"));
+    }
 }
